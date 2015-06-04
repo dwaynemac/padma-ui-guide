@@ -3,3 +3,15 @@
 Para páginas: 
 En el directorio app/views/pages poner los archivos en formato .html.erb
 
+=== Instalación
+
+    cd Workspace
+    git clone https://github.com/dwaynemac/padma-ui-guide.git
+    echo 1.9.3 > padma-ui-guide/.ruby-version
+    echo padma > padma-ui-guide/.ruby-gemset
+    rvm use 1.9.3 --install
+    cd padma-ui-guide
+    bundle install
+Para iniciar la guia en consola poner:
+    cd ~/Workspace/padma-ui-guide && bundle exec rails s -p 5000
+Y en el navegador ingresar a http://localhost:5000
