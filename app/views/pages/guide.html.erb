@@ -1,0 +1,319 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<header>
+<div class="container">
+<h1>Padma Ui Library</h1>
+</div>
+</header>
+
+<div class="container">
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<p>body text..</p>
+
+<a href="#">Link</a>
+<hr />
+<div class="row">
+<div class="col-lg-12">
+<button type="button" class="btn btn-primary">Guardar</button>
+<button type="button" class="btn btn-default">Cancelar</button>
+
+
+<button type="button" class="btn btn-sm btn-default" >Seguimiento</button>
+<button type="button" class="btn btn-sm btn-default" >Enviar email <span class="glyphicon glyphicon-triangle-right"></span></button>
+<button type="button" class="btn btn-sm btn-default" >Enviar email <span class="glyphicon glyphicon-triangle-down"></span></button>
+<button type="button" class="btn btn-sm btn-primary" >Matricular</button>
+<button type="button" class="btn btn-sm btn-success" >Matricular</button>
+<button type="button" class="btn btn-sm btn-danger" >Dar de baja</button>
+
+<button type="button" class="btn btn-info" ><span class="glyphicon glyphicon-filter"></span> Filtrar</button>
+
+<button type="button" class="btn btn-sm btn-default" disabled="disabled" >Fundir</button>
+
+  <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  
+</div>
+</div>
+<hr />
+
+<h2 id="tabs">Tabs</h2>
+<div class="row">
+<div class="col-lg-12">
+<div role="tabpanel">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">uno uno uno</div>
+    <div role="tabpanel" class="tab-pane fade" id="profile">dos dos dos</div>
+    <div role="tabpanel" class="tab-pane fade" id="messages">tres tres tres</div>
+    <div role="tabpanel" class="tab-pane fade" id="settings">cuatro cuatro cuatro</div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<hr />
+<h2>Forms</h2>
+<div class="row">
+<div class="col-lg-12">
+
+<div class="input-group input-group-lg">
+
+<label class="sr-only" for="inputHelpBlock">Input with help text</label>
+<input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
+...
+<span id="helpBlock" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+
+
+</div>
+
+
+<div class="row">
+  <div class="col-xs-2">
+    <input type="text" class="form-control" placeholder=".col-xs-2">
+  </div>
+  <div class="col-xs-3">
+    <input type="text" class="form-control" placeholder=".col-xs-3">
+  </div>
+  <div class="col-xs-4">
+    <input type="text" class="form-control" placeholder=".col-xs-4">
+  </div>
+</div>
+
+
+
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+
+<form class="form-inline">
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputPassword3">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Sign in</button>
+</form>
+
+
+<textarea class="form-control" rows="3"></textarea>
+
+
+
+<div class="checkbox">
+  <label>
+    <input type="checkbox" value="">
+    Option one is this and that&mdash;be sure to include why it's great
+  </label>
+</div>
+<div class="checkbox disabled">
+  <label>
+    <input type="checkbox" value="" disabled>
+    Option two is disabled
+  </label>
+</div>
+
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+    Option one is this and that&mdash;be sure to include why it's great
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+    Option two can be something else and selecting it will deselect option one
+  </label>
+</div>
+<div class="radio disabled">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+    Option three is disabled
+  </label>
+</div>
+
+
+
+
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+</label>
+<label class="checkbox-inline">
+  <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+</label>
+
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+</label>
+
+<select class="form-control">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+
+<p>DISABLED INPUT</p>
+<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
+
+
+<p>VALIDATION</p>
+
+<div class="form-group has-success has-feedback">
+  <label class="control-label" for="inputSuccess2">Input with success</label>
+  <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status">
+  <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+  <span id="inputSuccess2Status" class="sr-only">(success)</span>
+</div>
+<div class="form-group has-warning has-feedback">
+  <label class="control-label" for="inputWarning2">Input with warning</label>
+  <input type="text" class="form-control" id="inputWarning2" aria-describedby="inputWarning2Status">
+  <span class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></span>
+  <span id="inputWarning2Status" class="sr-only">(warning)</span>
+</div>
+<div class="form-group has-error has-feedback">
+  <label class="control-label" for="inputError2">Input with error</label>
+  <input type="text" class="form-control" id="inputError2" aria-describedby="inputError2Status">
+  <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+  <span id="inputError2Status" class="sr-only">(error)</span>
+</div>
+
+
+</div></div>
+
+<div class="row">
+<div class="col-lg-12">
+<div class="bs-example tooltip-demo">
+<h2>Tooltips</h2>
+<p>Tight pants next level keffiyeh
+<a title="" data-toggle="tooltip" href="#" data-original-title="Default tooltip">you probably</a>
+haven't heard of them. Photo booth beard raw denim letterpress vegan messenger bag stumptown. Farm-to-table seitan, mcsweeney's fixie sustainable quinoa 8-bit american apparel
+<a title="Another tooltip" data-toggle="tooltip" href="#">have a</a>
+terry richardson vinyl chambray. Beard stumptown, cardigans banh mi lomo thundercats. Tofu biodiesel williamsburg marfa, four loko mcsweeney's cleanse vegan chambray. A really ironic artisan
+<a title="Another one here too" data-toggle="tooltip" href="#">whatever keytar</a>
+, scenester farm-to-table banksy Austin
+<a title="The last tip!" data-toggle="tooltip" href="#">twitter handle</a>
+freegan cred raw denim single-origin coffee viral.</p>
+</div>
+</div></div>
+
+<hr />
+
+<h2 id="tablas" >Tablas</h2>
+<div class="row">
+  <div class="col-lg-12">
+  <p>TABLAS</p>
+<table class="table table-bordered table-striped table-hover table-responsive">
+<thead>
+<tr>
+<th>#</th>
+<th>First Name</th>
+<th>Last Name</th>
+<th>Username</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">1</th>
+<td>Mark</td>
+<td>Otto</td>
+<td>@mdo</td>
+</tr>
+<tr>
+<th scope="row">2</th>
+<td>Jacob</td>
+<td>Thornton</td>
+<td>@fat</td>
+</tr>
+<tr>
+<th scope="row">3</th>
+<td>Larry</td>
+<td>the Bird</td>
+<td>@twitter</td>
+</tr>
+</tbody>
+</table>
+    </div>
+  </div> 
+  
+  
+ <hr />
+  <h2 id="alerts">Alerts</h2>
+  <div class="row">
+  <div class="col-lg-12">
+  <p>IMAGE</p>
+  <img src="..." alt="..." class="img-thumbnail">
+  
+  <p>texts</p>
+  <p class="text-muted">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="text-success">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="text-info">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="text-warning">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="text-danger">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+<p class="bg-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="bg-success">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="bg-info">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="bg-warning">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="bg-danger">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+  </div>
+  
+  
+  <div class="row">
+ <div class="col-lg-12">
+ <div class="alert alert-success" role="alert">Well done! You successfully read this important alert message. <a href="#" class="alert-link">click here</a></div>
+<div class="alert alert-info" role="alert">Heads up! This alert needs your attention, but it's not super important. </div>
+<div class="alert alert-warning" role="alert">Warning! Better check yourself, you're not looking too good. </div>
+<div class="alert alert-danger" role="alert">Oh snap! Change a few things up and try submitting again. </div>
+</div>
+</div><!-- /.row -->
+
+</div><!-- /container -->
