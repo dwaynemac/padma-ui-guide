@@ -1,4 +1,3 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <header>
 <div class="container">
@@ -10,16 +9,19 @@
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
 <p>body text..</p>
 
 <a href="#">Link</a>
 <hr />
 <div class="row">
 <div class="col-lg-12">
+<h2>Acciones Primarias</h2>
 <button type="button" class="btn btn-primary">Guardar</button>
 <button type="button" class="btn btn-default">Cancelar</button>
 
-
+<h2>Acciones Secundarias</h2>
 <button type="button" class="btn btn-sm btn-default" >Seguimiento</button>
 <button type="button" class="btn btn-sm btn-default" >Enviar email <span class="glyphicon glyphicon-triangle-right"></span></button>
 <button type="button" class="btn btn-sm btn-default" >Enviar email <span class="glyphicon glyphicon-triangle-down"></span></button>
@@ -27,8 +29,10 @@
 <button type="button" class="btn btn-sm btn-success" >Matricular</button>
 <button type="button" class="btn btn-sm btn-danger" >Dar de baja</button>
 
+<h2>Acciones para tablas</h2>
 <button type="button" class="btn btn-info" ><span class="glyphicon glyphicon-filter"></span> Filtrar</button>
 
+<p>Boton deshabilitado</p>
 <button type="button" class="btn btn-sm btn-default" disabled="disabled" >Fundir</button>
 
   <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -106,7 +110,7 @@
     <input type="file" id="exampleInputFile">
     <p class="help-block">Example block-level help text here.</p>
   </div>
-  <div class="checkbox">
+ <div class="checkbox check-default">
     <label>
       <input type="checkbox"> Check me out
     </label>
@@ -124,86 +128,68 @@
     <label class="sr-only" for="exampleInputPassword3">Password</label>
     <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
   </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Remember me
-    </label>
+  <div class="checkbox check-default">
+    <div class="checkbox check-default">
+      <label for="remember">Remember me</label>
+      <input id="remember" type="checkbox"> 
+      </div>	
   </div>
   <button type="submit" class="btn btn-default">Sign in</button>
 </form>
 
 
 <textarea class="form-control" rows="3"></textarea>
-
-
-
-<div class="checkbox">
-  <label>
-    <input type="checkbox" value="">
-    Option one is this and that&mdash;be sure to include why it's great
-  </label>
+ 
+ <hr />
+<p>Select</p>
+<div class="select"><select id="user_encoding" class="selectpicker show-tick" name="user[encoding]">
+<option value="UTF-8">UTF-8</option>
+<option value="ISO-8859-1">ISO-8859-1</option>
+<option value="Windows-1251">Windows-1251</option>
+</select></span>
+</div>
+ 
+ <hr />
+<div class="checkbox check-default">
+ <input id="checkbox1" type="checkbox" value="1">
+ <label for="checkbox1"> Option one is this and that&mdash;be sure to include why it's great</label>
+  </div>
+<div class="checkbox check-default">
+    <input id="checkbox2" type="checkbox" value="2">
+     <label for="checkbox2" > Option one is this and that&mdash;be sure to include why it's great </label>
 </div>
 <div class="checkbox disabled">
-  <label>
-    <input type="checkbox" value="" disabled>
-    Option two is disabled
-  </label>
+  <input type="checkbox" value="" disabled>
+   <label>Option three is disabled</label>
 </div>
 
+    
+ <hr />    
 <div class="radio">
-  <label>
-    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-    Option one is this and that&mdash;be sure to include why it's great
-  </label>
+    <input type="radio" name="optionsRadios" id="radio1" value="option1" checked>
+   
+   <label for="radio1" > Option one is this and that&mdash;be sure to include why it's great</label>
 </div>
 <div class="radio">
-  <label>
+  
     <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-    Option two can be something else and selecting it will deselect option one
-  </label>
+    
+  <label for="optionsRadios2" >Option two can be something else and selecting it will deselect option one</label>
 </div>
 <div class="radio disabled">
-  <label>
-    <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-    Option three is disabled
-  </label>
+ <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+   <label for="optionsRadios3">Option three is disabled</label>
 </div>
+ 
 
-
-
-
-<label class="checkbox-inline">
-  <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
-</label>
-<label class="checkbox-inline">
-  <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
-</label>
-<label class="checkbox-inline">
-  <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
-</label>
-
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
-</label>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
-</label>
-<label class="radio-inline">
-  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
-</label>
-
-<select class="form-control">
-  <option>1</option>
-  <option>2</option>
-  <option>3</option>
-  <option>4</option>
-  <option>5</option>
-</select>
-
+ 
+ <hr />
+ 
 <p>DISABLED INPUT</p>
 <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
 
-
+ 
+ <hr />
 <p>VALIDATION</p>
 
 <div class="form-group has-success has-feedback">
@@ -230,8 +216,22 @@
 
 <div class="row">
 <div class="col-lg-12">
-<div class="bs-example tooltip-demo">
+
 <h2>Tooltips</h2>
+
+<!-- HTML to write -->
+<a href="#" data-toggle="tooltip" title="Some tooltip text!">Hover over me</a>
+
+<!-- Generated markup by the plugin -->
+<div class="tooltip top" role="tooltip">
+  <div class="tooltip-arrow"></div>
+  <div class="tooltip-inner">
+    Some tooltip text!
+  </div>
+</div>
+
+
+<div class="bs-example tooltip-demo">
 <p>Tight pants next level keffiyeh
 <a title="" data-toggle="tooltip" href="#" data-original-title="Default tooltip">you probably</a>
 haven't heard of them. Photo booth beard raw denim letterpress vegan messenger bag stumptown. Farm-to-table seitan, mcsweeney's fixie sustainable quinoa 8-bit american apparel
@@ -249,7 +249,6 @@ freegan cred raw denim single-origin coffee viral.</p>
 <h2 id="tablas" >Tablas</h2>
 <div class="row">
   <div class="col-lg-12">
-  <p>TABLAS</p>
 <table class="table table-bordered table-striped table-hover table-responsive">
 <thead>
 <tr>
@@ -285,14 +284,13 @@ freegan cred raw denim single-origin coffee viral.</p>
   
   
  <hr />
+  <h2>IMAGE</h2>
+  <img src="..." alt="..." class="img-thumbnail">
+  
   <h2 id="alerts">Alerts</h2>
   <div class="row">
   <div class="col-lg-12">
-  <p>IMAGE</p>
-  <img src="..." alt="..." class="img-thumbnail">
-  
-  <p>texts</p>
-  <p class="text-muted">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p class="text-muted">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 <p class="text-success">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 <p class="text-info">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -310,10 +308,33 @@ freegan cred raw denim single-origin coffee viral.</p>
   <div class="row">
  <div class="col-lg-12">
  <div class="alert alert-success" role="alert">Well done! You successfully read this important alert message. <a href="#" class="alert-link">click here</a></div>
-<div class="alert alert-info" role="alert">Heads up! This alert needs your attention, but it's not super important. </div>
-<div class="alert alert-warning" role="alert">Warning! Better check yourself, you're not looking too good. </div>
-<div class="alert alert-danger" role="alert">Oh snap! Change a few things up and try submitting again. </div>
+<div class="alert alert-info" role="alert">Heads up! This alert needs your attention, but it's not super important. <a href="#" class="alert-link">click here</a></div>
+<div class="alert alert-warning" role="alert">Warning! Better check yourself, you're not looking too good. <a href="#" class="alert-link">click here</a></div>
+<div class="alert alert-danger" role="alert">Oh snap! Change a few things up and try submitting again. <a href="#" class="alert-link">click here</a> </div>
 </div>
 </div><!-- /.row -->
 
-</div><!-- /container -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+

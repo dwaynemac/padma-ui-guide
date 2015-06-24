@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'padma-assets'
+gem 'padma-assets', path: '~/Workspace/padma-assets'
 
 gem 'high_voltage'
 
