@@ -6,319 +6,431 @@
 </header>
 
 <div class="container">
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<p>body text..</p>
-
-<a href="#">Link</a>
-<hr />
-<div class="row">
-<div class="col-lg-12">
-<h2>Acciones Primarias</h2>
-<button type="button" class="btn btn-primary">Guardar</button>
-<button type="button" class="btn btn-default">Cancelar</button>
-
-<h2>Acciones Secundarias</h2>
-<button type="button" class="btn btn-sm btn-default" >Seguimiento</button>
-<button type="button" class="btn btn-sm btn-default" >Enviar email <span class="glyphicon glyphicon-triangle-right"></span></button>
-<button type="button" class="btn btn-sm btn-default" >Enviar email <span class="glyphicon glyphicon-triangle-down"></span></button>
-<button type="button" class="btn btn-sm btn-primary" >Matricular</button>
-<button type="button" class="btn btn-sm btn-success" >Matricular</button>
-<button type="button" class="btn btn-sm btn-danger" >Dar de baja</button>
-
-<h2>Acciones para tablas</h2>
-
-<button class="btn btn-info" type="button" data-toggle="tooltip" data-placement="top" title="Descargar para excel"><span class="glyphicon glyphicon-download-alt"></span></button>
-
-<button type="button" class="btn btn-info" ><span class="glyphicon glyphicon-filter"></span> Filtrar</button>
-
-<button class="btn btn-info" type="button" data-toggle="tooltip" data-placement="top" title="Guardar esta búsqueda para acceso rápido">Guardar lista</button>
-
-<p>Boton deshabilitado: <button type="button" class="btn btn-sm btn-default" disabled="disabled" >Fundir</button></p>
-
-  <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  
-</div>
-</div>
-<hr />
-
-<h2 id="tabs">Tabs</h2>
-<div class="row">
-<div class="col-lg-12">
-<div role="tabpanel">
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-  </ul>
-
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="home">uno uno uno</div>
-    <div role="tabpanel" class="tab-pane fade" id="profile">dos dos dos</div>
-    <div role="tabpanel" class="tab-pane fade" id="messages">tres tres tres</div>
-    <div role="tabpanel" class="tab-pane fade" id="settings">cuatro cuatro cuatro</div>
-  </div>
-</div>
-</div>
-</div>
-
-
-<hr />
-<h2>Forms</h2>
-<div class="row">
-<div class="col-lg-12">
-
-<div class="input-group input-group-lg">
-
-<label class="sr-only" for="inputHelpBlock">Input with help text</label>
-<input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
-...
-<span id="helpBlock" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
-
-
-</div>
-
-
-<div class="row">
-  <div class="col-xs-2">
-    <input type="text" class="form-control" placeholder=".col-xs-2">
-  </div>
-  <div class="col-xs-3">
-    <input type="text" class="form-control" placeholder=".col-xs-3">
-  </div>
-  <div class="col-xs-4">
-    <input type="text" class="form-control" placeholder=".col-xs-4">
-  </div>
-</div>
-
-
-
-
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block">Example block-level help text here.</p>
-  </div>
- <div class="checkbox check-default">
-    <label>
-      <input type="checkbox"> Check me out
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
-
-
-<form class="form-inline">
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
-  </div>
-  <div class="form-group">
-    <label class="sr-only" for="exampleInputPassword3">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-  </div>
-  <div class="checkbox check-default">
-    <div class="checkbox check-default">
-      <label for="remember">Remember me</label>
-      <input id="remember" type="checkbox"> 
-      </div>	
-  </div>
-  <button type="submit" class="btn btn-default">Sign in</button>
-</form>
-
-
-<textarea class="form-control" rows="3"></textarea>
- 
- <hr />
-<p>Select</p>
-<div class="select"><select id="user_encoding" class="selectpicker show-tick" name="user[encoding]">
-<option value="UTF-8">UTF-8</option>
-<option value="ISO-8859-1">ISO-8859-1</option>
-<option value="Windows-1251">Windows-1251</option>
-</select></span>
-</div>
- 
- <hr />
-<div class="checkbox check-default">
- <input id="checkbox1" type="checkbox" value="1">
- <label for="checkbox1"> Option one is this and that&mdash;be sure to include why it's great</label>
-  </div>
-<div class="checkbox check-default">
-    <input id="checkbox2" type="checkbox" value="2">
-     <label for="checkbox2" > Option one is this and that&mdash;be sure to include why it's great </label>
-</div>
-<div class="checkbox disabled">
-  <input type="checkbox" value="" disabled>
-   <label>Option three is disabled</label>
-</div>
-
-    
- <hr />    
-<div class="radio">
-    <input type="radio" name="optionsRadios" id="radio1" value="option1" checked>
-   
-   <label for="radio1" > Option one is this and that&mdash;be sure to include why it's great</label>
-</div>
-<div class="radio">
-  
-    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-    
-  <label for="optionsRadios2" >Option two can be something else and selecting it will deselect option one</label>
-</div>
-<div class="radio disabled">
- <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-   <label for="optionsRadios3">Option three is disabled</label>
-</div>
- 
-
- 
- <hr />
- 
-<p>DISABLED INPUT</p>
-<input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled>
-
- 
- <hr />
-<p>VALIDATION</p>
-
-<div class="form-group has-success has-feedback">
-  <label class="control-label" for="inputSuccess2">Input with success</label>
-  <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status">
-  <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
-  <span id="inputSuccess2Status" class="sr-only">(success)</span>
-</div>
-<div class="form-group has-warning has-feedback">
-  <label class="control-label" for="inputWarning2">Input with warning</label>
-  <input type="text" class="form-control" id="inputWarning2" aria-describedby="inputWarning2Status">
-  <span class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></span>
-  <span id="inputWarning2Status" class="sr-only">(warning)</span>
-</div>
-<div class="form-group has-error has-feedback">
-  <label class="control-label" for="inputError2">Input with error</label>
-  <input type="text" class="form-control" id="inputError2" aria-describedby="inputError2Status">
-  <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
-  <span id="inputError2Status" class="sr-only">(error)</span>
-</div>
-
-
-</div></div>
-
-<div class="row">
-<div class="col-lg-12">
-
-<h2>Tooltips</h2>
-<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
-
-<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button>
-
-<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Tooltip on bottom</button>
-
-<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Tooltip on right</button>
-
-<!-- HTML to write -->
-<a href="#" data-toggle="tooltip" title="Some tooltip text!">Hover over me</a>
-
-<!-- Generated markup by the plugin -->
-<div class="tooltip top" role="tooltip">
-  <div class="tooltip-arrow"></div>
-  <div class="tooltip-inner">
-    Some tooltip text!
-  </div>
-</div>
-
-
-<div class="bs-example tooltip-demo">
-<p>Tight pants next level keffiyeh
-<a title="" data-toggle="tooltip" href="#" data-original-title="Default tooltip">you probably</a>
-haven't heard of them. Photo booth beard raw denim letterpress vegan messenger bag stumptown. Farm-to-table seitan, mcsweeney's fixie sustainable quinoa 8-bit american apparel
-<a title="Another tooltip" data-toggle="tooltip" href="#">have a</a>
-terry richardson vinyl chambray. Beard stumptown, cardigans banh mi lomo thundercats. Tofu biodiesel williamsburg marfa, four loko mcsweeney's cleanse vegan chambray. A really ironic artisan
-<a title="Another one here too" data-toggle="tooltip" href="#">whatever keytar</a>
-, scenester farm-to-table banksy Austin
-<a title="The last tip!" data-toggle="tooltip" href="#">twitter handle</a>
-freegan cred raw denim single-origin coffee viral.</p>
-</div>
-</div></div>
-
-<hr />
-
-<h2 id="tablas" >Tablas</h2>
-<div class="row">
-  <div class="col-lg-12">
-<table class="table table-bordered table-striped table-hover table-responsive">
-<thead>
-<tr>
-<th>#</th>
-<th>First Name</th>
-<th>Last Name</th>
-<th>Username</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th scope="row">1</th>
-<td>Mark</td>
-<td>Otto</td>
-<td>@mdo</td>
-</tr>
-<tr>
-<th scope="row">2</th>
-<td>Jacob</td>
-<td>Thornton</td>
-<td>@fat</td>
-</tr>
-<tr>
-<th scope="row">3</th>
-<td>Larry</td>
-<td>the Bird</td>
-<td>@twitter</td>
-</tr>
-</tbody>
-</table>
+  <div class='row'>
+    <div class='col-md-12'>
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <p>body text..</p>
+      <a href="#">Link</a>
     </div>
-  </div> 
-  
-  
- <hr />
-  <h2>IMAGE</h2>
-  <img src="..." alt="..." class="img-thumbnail">
-  
-  <h2 id="alerts">Alerts</h2>
-  <div class="row">
-  <div class="col-lg-12">
-<p class="text-muted">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p class="text-success">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p class="text-info">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p class="text-warning">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p class="text-danger">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-
-<p class="bg-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p class="bg-success">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p class="bg-info">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p class="bg-warning">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-<p class="bg-danger">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
   </div>
-  
-  
+<hr />
   <div class="row">
- <div class="col-lg-12">
- <div class="alert alert-success" role="alert">Well done! You successfully read this important alert message. <a href="#" class="alert-link">click here</a></div>
+    <div class="col-lg-12">
+      <h2>Acciones Primarias</h2>
+      <p>
+        <button type="button" class="btn btn-primary">Crear telefono</button>
+        <button type="button" disabled class="btn btn-primary">Crear telefono</button>
+        <button type="button" class="btn btn-default">Cancelar</button>
+        <button type="button" disabled class="btn btn-default">Cancelar</button>
+      </p>
+
+      <h2>Acciones Secundarias</h2>
+      <p>
+        <button class='btn btn-default btn-sm'>Button default</button>
+        <button class='btn btn-secondary btn-sm'>Button secondary</button> ~
+        <button class='btn btn-info btn-sm'>Button info</button>
+        <button type="button" class="btn btn-success btn-sm" >Button success</button>
+        <button type="button" class="btn btn-warning btn-sm" >Button warning</button>
+        <button type="button" class="btn btn-danger btn-sm" >Button danger</button>
+      </p>
+
+      <p>
+        <button type="button" class="btn btn-success btn-sm btn-upper" >en seguimiento</button>
+      </p>
+
+      <h2>Acciones para tablas</h2>
+      <p>
+        <button class="btn btn-info btn-sm" type="button" data-toggle="tooltip" data-placement="top" title="Descargar para excel">
+          <span class="glyphicon glyphicon-download-alt"></span>
+        </button>
+        <button type="button" class="btn btn-info btn-sm" >
+          <span class="glyphicon glyphicon-filter"></span> Filtrar
+        </button>
+        <button class="btn btn-info btn-sm" type="button" data-toggle="tooltip" data-placement="top" title="Guardar esta búsqueda para acceso rápido">Guardar lista</button>
+      </p>
+      <p>*Cuando el boton se encuentra deshabilitado, o el elemento <code>&lt;fieldset&gt;</code>, el color sera default y con opacidad (65)</p>
+    </div>
+  </div>
+<hr />
+  <div class='row'>
+    <div class='col-md-12'>
+      <h2>Card</h2>
+      <div class='row'>
+        <div class='col-md-4'>
+          <section class='card card-default'>
+            <header class='card-head'>
+              <h3 class='card-title'>Panel heading without title</h3>
+            </header>
+            <div class='card-body'>
+              Panel content
+            </div>
+          </section>
+        </div>
+        <div class='col-md-4'>
+          <section class='card card-primary'>
+            <header class='card-head'>
+              <h3 class='card-title'>Panel heading without title</h3>
+            </header>
+            <div class='card-body'>
+              <p>Panel content</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+<hr />
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 id="tabs">Tabs - Tabs justified</h2>
+      <div role="tabpanel">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation" class="active"><a href="#date-tab" aria-controls="home" role="tab" data-toggle="tab">Dato</a></li>
+          <li role="presentation"><a href="#comunication-tab" aria-controls="profile" role="tab" data-toggle="tab">Comunicaci&oacute;n</a></li>
+          <li role="presentation"><a href="#comment-tab" aria-controls="messages" role="tab" data-toggle="tab">Comentario</a></li>
+          <li role="presentation"><a href="#task-tab" aria-controls="settings" role="tab" data-toggle="tab">Tarea</a></li>
+        </ul>
+
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+          <li role="presentation" class="active"><a href="#date-tab" aria-controls="home" role="tab" data-toggle="tab">Dato</a></li>
+          <li role="presentation"><a href="#comunication-tab" aria-controls="profile" role="tab" data-toggle="tab">Comunicaci&oacute;n</a></li>
+          <li role="presentation"><a href="#comment-tab" aria-controls="messages" role="tab" data-toggle="tab">Comentario</a></li>
+          <li role="presentation"><a href="#task-tab" aria-controls="settings" role="tab" data-toggle="tab">Tarea</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id='date-tab' role="tabpanel" class="tab-pane active">uno uno uno</div>
+          <div id='comunication-tab' role="tabpanel" class="tab-pane fade">dos dos dos</div>
+          <div id='comment-tab' role="tabpanel" class="tab-pane fade">tres tres tres</div>
+          <div id='task-tab' role="tabpanel" class="tab-pane fade">cuatro cuatro cuatro</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<hr />
+
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Forms</h2>
+      <form role='form'>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox"> Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-secondary">Sign in</button>
+      </form>
+      <p>INPUT GROUP</p>
+      <div class="input-group">
+        <input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock">
+        <div class='input-group-btn'>
+          <button class='btn btn-default btn-sm'><span class='glyphicon glyphicon-calendar'></span></button>
+        </div>
+      </div>
+      <span class="help-block">
+        A block of help text that breaks onto a new line and may extend beyond one line. <small>Improve bug in Chrome (webkit), height !=</small>
+      </span>
+      <div class='row margin-bottom-10'>
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder=".col-md-4">
+        </div>
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder=".col-md-4">
+        </div>
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder=".col-md-4">
+        </div>
+      </div>
+      <hr />
+      <div class='form-group'>
+        <p>DISABLED INPUT</p>
+        <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled />
+      </div>
+      <form class='form-inline'>
+        <div class='form-group'>
+          <input type='text' class='form-control' />
+          <button class='btn btn-secondary btn-sm'>Button secondary</button>
+        </div>
+      </form>
+      <form class="form-inline">
+        <div class="form-group">
+          <label class="sr-only" for="exampleInputEmail3">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="exampleInputPassword3">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+        </div>
+        <div class="checkbox check-default">
+          <label for="remember"><input id="remember" type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-secondary btn-sm">Sign in</button>
+      </form>
+      <textarea class="form-control" rows="3"></textarea>
+      <hr />
+      <p>Select</p>
+      <div class="select">
+        <select id="user_encoding" class="form-control" name="user[encoding]">
+          <option value="UTF-8">UTF-8</option>
+          <option value="ISO-8859-1">ISO-8859-1</option>
+          <option value="Windows-1251">Windows-1251</option>
+        </select>
+      </div>
+
+      <div class='pa-example-doc'>
+        <legend class='margin-top-10'>Ejemplo de formulario:</legend>
+        <form role='form'>
+          <div class='form-group'>
+            <label>Nombre de usuario*</label>
+            <div class='select'>
+              <select class='form-control'>
+                <option>Developer</option>
+              </select>
+            </div>
+          </div>
+          <div class='form-group form-group-inline'>
+            <label>Tipo de comunicaci&oacute;n*</label>
+            <div class='select'>
+              <select class='form-control'>
+                <option>Entrevista</option>
+              </select>
+            </div>
+          </div>
+          <div class='form-group form-group-inline'>
+            <label>Coeficiente estimado*</label>
+            <div class='select'>
+              <select class='form-control'>
+                <option>FP</option>
+              </select>
+            </div>
+          </div>
+          <div class='form-group'>
+            <label>M&eacute;todos de marketing*</label>
+            <div class='select col-md-6'>
+              <select class='form-control'>
+                <option>Select some options</option>
+              </select>
+            </div>
+          </div>
+          <div class='form-group form-group-inline'>
+            <label>Fecha de la comunicacion</label>
+            <div class='select'>
+              <select class='form-control'>
+                <option>6</option>
+              </select>
+            </div>
+            <div class='select'>
+              <select class='form-control'>
+                <option>Septiembre</option>
+              </select>
+            </div>
+            <div class='select'>
+              <select class='form-control'>
+                <option>1996</option>
+              </select>
+            </div>
+          </div>
+          <div class='form-group form-group-inline'>
+            <label>&nbsp;</label>
+            <div class='select'>
+              <select class='form-control'>
+                <option>16</option>
+              </select>
+            </div>
+            <div class='select'>
+              <select class='form-control'>
+                <option>37</option>
+              </select>
+            </div>
+          </div>
+          <div class='checkbox'>
+            <label><input type='checkbox' /> Ignorar mails automaticos</label>
+          </div>
+          <div class='checkbox'>
+            <label><input type='checkbox' /> Publico</label>
+          </div>
+          <div class='form-group'>
+            <label>Observaciones*</label>
+            <div class='col-md-6 no-padding'>
+              <textarea class='form-control' rows='3'></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <p>Select inline</p>
+      <div class='select-inline'>
+        <div class='select'>
+          <select class='form-control'>
+            <option>6</option>
+          </select>
+        </div>
+        <div class='select'>
+          <select class='form-control'>
+            <option>Septiembre</option>
+          </select>
+        </div>
+        <div class='select'>
+          <select class='form-control'>
+            <option>1996</option>
+          </select>
+        </div>
+      </div>
+      <div class='input-file'>
+        <input type='file' id='inputfile' />
+        <label for='inputfile' class='btn btn-secondary btn-sm'>Upload file</label>
+        <p class='input-file-name'>Nombre ejemplo del archivo subido</p>
+      </div>
+      <hr />
+      <div class="checkbox">
+        <input id="checkbox1" type="checkbox" value="1">
+        <label for="checkbox1"> Option one is this and that&mdash;be sure to include why it's great</label>
+      </div>
+      <div class="checkbox">
+        <input id="checkbox2" type="checkbox" value="2">
+        <label for="checkbox2" > Option one is this and that&mdash;be sure to include why it's great </label>
+      </div>
+      <div class="checkbox disabled">
+        <input type="checkbox" value="" disabled>
+        <label>Option three is disabled</label>
+      </div>
+      <hr />
+      <div class="radio">
+        <input type="radio" name="optionsRadios" id="radio1" value="option1" checked>
+        <label for="radio1" > Option one is this and that&mdash;be sure to include why it's great</label>
+      </div>
+      <div class="radio">
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+        <label for="optionsRadios2" >Option two can be something else and selecting it will deselect option one</label>
+      </div>
+      <div class="radio disabled">
+        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+        <label for="optionsRadios3">Option three is disabled</label>
+      </div>
+      <hr />
+      <p>VALIDATION</p>
+      <div class="form-group has-success has-feedback">
+        <label class="control-label" for="inputSuccess2">Input with success</label>
+        <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status">
+        <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+        <span id="inputSuccess2Status" class="sr-only">(success)</span>
+      </div>
+      <div class="form-group has-warning has-feedback">
+        <label class="control-label" for="inputWarning2">Input with warning</label>
+        <input type="text" class="form-control" id="inputWarning2" aria-describedby="inputWarning2Status">
+        <span class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></span>
+        <span id="inputWarning2Status" class="sr-only">(warning)</span>
+      </div>
+      <div class="form-group has-error has-feedback">
+        <label class="control-label" for="inputError2">Input with error</label>
+        <input type="text" class="form-control" id="inputError2" aria-describedby="inputError2Status">
+        <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+        <span id="inputError2Status" class="sr-only">(error)</span>
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <h2>Tooltips</h2>
+      <p>
+        <button type="button" class="btn btn-secondary btn-sm" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+          Tooltip on left
+        </button>
+        <button type="button" class="btn btn-secondary btn-sm" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+          Tooltip on top
+        </button>
+        <button type="button" class="btn btn-secondary btn-sm" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+          Tooltip on bottom
+        </button>
+        <button type="button" class="btn btn-secondary btn-sm" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+          Tooltip on right
+        </button>
+        <a href="#" class='btn btn-link btn-sm' data-toggle="tooltip" title="Some tooltip text!">Hover over me</a>
+      </p>
+      <p>Code generated markup by the plugin - viewport <strong>body</strong></p>
+      <pre class='col-xs-12 col-md-6'>
+        <code>
+          &lt;div class="tooltip top" role="tooltip"&gt;
+            &lt;div class="tooltip-arrow"&gt;&lt;/div&gt;
+            &lt;div class="tooltip-inner"&gt;
+              Some tooltip text!
+            &lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+      </pre>
+      <hr />
+    </div>
+    <div class="col-lg-12">
+      <h2 id="tablas">Tablas</h2>
+      <div class='table-responsive'>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Larry</td>
+              <td>the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <hr />
+    <div class="col-lg-12">
+      <h2>IMAGE</h2>
+      <img src="..." alt="..." class="img-thumbnail" />
+      <h2 id="alerts">Alerts</h2>
+      <p class="text-muted">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p class="text-success">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p class="text-info">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p class="text-warning">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p class="text-danger">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+      <p class="bg-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p class="bg-success">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p class="bg-info">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p class="bg-warning">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+      <p class="bg-danger">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+    </div>
+  </div>
+
+
+<div class="row">
+<div class="col-lg-12">
+<div class="alert alert-success" role="alert">Well done! You successfully read this important alert message. <a href="#" class="alert-link">click here</a></div>
 <div class="alert alert-info" role="alert">Heads up! This alert needs your attention, but it's not super important. <a href="#" class="alert-link">click here</a></div>
 <div class="alert alert-warning" role="alert">Warning! Better check yourself, you're not looking too good. <a href="#" class="alert-link">click here</a></div>
 <div class="alert alert-danger" role="alert">Oh snap! Change a few things up and try submitting again. <a href="#" class="alert-link">click here</a> </div>
@@ -327,43 +439,51 @@ freegan cred raw denim single-origin coffee viral.</p>
 
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
+Launch demo modal
 </button>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title" id="myModalLabel">Modal title</h4>
+</div>
+<div class="modal-body">
+...
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+<button type="button" class="btn btn-primary">Save changes</button>
+</div>
+</div>
+</div>
 </div>
 
 <hr/>
 
 <!-- Tabla Responsive -->
 <div class="table-responsive">
- <div class="sticky-wrap">
-    <table id="contacts-table" border="0" cellspacing="0" class="padma-table table table-bordered table-striped table-hover withchk table-responsive">
-    	<thead>
-    		<tr>
-    			<th class="withchk" style="width: 43px;"><input id="select_all" type="checkbox" value="#"></th>
-				<th style="width: 244px;"><p><a class="current desc">Nombre Completo</a></p></th>
-	    		<th style="width: 139px;"><p><a data-original-title="Item muy muuuuuuuuy largo"  data-placement="bottom" href="#" data-toggle="tooltip" title="">Item muy muuuuuuuuy largo</a></p></th>
-				<th style="width: 130px;"><p>Instructor</p></th>
-				<th style="width: 198px;"><p><span class=" tipsyS" original-title="mostrando solo el primario">Telefono principal</span></p></th>
-				<th style="width: 161px;"><p><span class=" tipsyS" original-title="mostrando solo el primario">Email principal</span></p></th><th style="width: 161px;"><p><span class=" tipsyS" original-title="mostrando solo el primario">Email secundario</span></p></th>
-</tr></thead>
+<div class="sticky-wrap">
+<table id="contacts-table" border="0" cellspacing="0" class="table table-bordered table-striped table-hover withchk table-responsive">
+  <thead>
+    <tr>
+      <th class="withchk">
+        <input id="select_all" type="checkbox" value="#">
+      </th>
+      <th>
+        <p><a class="current desc">Nombre Completo</a></p>
+      </th>
+      <th>
+        <p><a data-original-title="Item muy muuuuuuuuy largo"  data-placement="bottom" href="#" data-toggle="tooltip" title="">Item muy muuuuuuuuy largo</a></p>
+      </th>
+      <th><p>Instructor</p></th>
+      <th><p>Telefono principal</p></th>
+      <th><p>Email principal</p></th>
+      <th><p>Email secundario</p></th>
+    </tr>
+  </thead>
 
 <tbody>
 <tr>
@@ -519,14 +639,19 @@ freegan cred raw denim single-origin coffee viral.</p>
 <td>  <p>test</p></td>
 <td><p>test</p></td>
 </tr>
-      </tbody>
-    </table>
-      </div>
-      </div>
-      
-      <script>
-$(document).ready(function() {
-    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
-});
+</tbody>
+</table>
+</div>
+</div>
 
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip({
+    container: 'body',
+      delay: {
+            show: 400,
+            hide: 100
+      }
+    })
+})
 </script>
