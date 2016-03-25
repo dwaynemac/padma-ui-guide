@@ -1,9 +1,3 @@
-PATH
-  remote: ~/Workspace/padma-assets
-  specs:
-    padma-assets (0.1.32)
-      railties (>= 3.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -79,6 +73,8 @@ GEM
     multi_json (1.11.0)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+    padma-assets (0.2.5)
+      railties (>= 3.1)
     rack (1.6.1)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -154,7 +150,7 @@ DEPENDENCIES
   high_voltage
   jbuilder (~> 2.0)
   jquery-rails
-  padma-assets!
+  padma-assets (= 0.2.5)
   rails (= 4.2.1)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
