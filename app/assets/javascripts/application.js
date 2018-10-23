@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require 'padma-assets'
+//= require 'bootstrap-datepicker'
 //= require_tree .
